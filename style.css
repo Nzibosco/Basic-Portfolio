@@ -18,6 +18,7 @@ li{
     margin-right: 5px;
     border-right-style: ridge;
     padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 header {
@@ -44,6 +45,7 @@ header {
     background-color: #ffffff;
     border-style: auto;
     border-color:#dddddd;
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
     float: left;
@@ -58,6 +60,7 @@ h1{
     border-color: #cccccc;
     background-color: #ffffff;
     color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p{
     color: #777777
@@ -67,4 +70,18 @@ p{
     text-align: center;
     border-top: 8px solid #4aaaa5;
     padding-bottom: 20px;
+}
+/* styling the form inputs and textarea in the contact.html file */
+input{
+    width: 800px;
+}
+textarea{
+    width: 800px;
+    height: 200px;
+}
+#submit{
+    width:50px;
+    background-color:#4aaaa5;
+    padding: 5px;
+    color:white;
 }
