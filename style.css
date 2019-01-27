@@ -1,0 +1,70 @@
+a:hover{
+background-color: red;
+
+}
+a:active{
+    background-color: blue;
+}
+logo{
+    font-size:30px;
+    color: white;
+    background-color:#4aaaa5;
+    padding: 40px;
+    margin-left: 90px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    border-right-style: ridge;
+    padding:5px;
+
+}
+header {
+    padding: 50px;
+    background-color: white;
+    margin-top: none;
+    height: 25px;
+}
+.header-list {
+    float: right;
+    overflow: auto;
+    width: 400px;
+}
+.Bio {
+    margin-left: 50px;
+    margin-right: 70px;
+    padding-top: 2opx;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 138px;
+    width: 960px;
+    text-align: justify;
+    background-color: #ffffff;
+    border-style: auto;
+    border-color:#dddddd;
+}
+img {
+    float: left;
+    padding-right: 10px;
+}
+body{
+    background-color: rgb(248, 248, 239);
+}
+h1{
+    border-bottom: solid;
+    padding-bottom: 20px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    color:#4aaaa5;
+}
+p{
+    color: #777777
+}
+.footer{
+    background-color:#666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    padding-bottom: 20px;
+}
