@@ -1,9 +1,18 @@
 a:hover{
-background-color: red;
+background-color:khaki;
 
 }
 a:active{
     background-color: blue;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#link-logo{
+    text-decoration: none;
+    color:white;
 }
 logo{
     font-size:30px;
@@ -22,10 +31,11 @@ li{
 
 }
 header {
-    padding: 50px;
+    padding:50px;
     background-color: white;
     margin-top: none;
     height: 25px;
+    margin-bottom: 20px;
 }
 .header-list {
     float: right;
@@ -35,7 +45,7 @@ header {
 .Bio {
     margin-left: 50px;
     margin-right: 70px;
-    padding-top: 2opx;
+    padding-top: 10px;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -46,13 +56,14 @@ header {
     border-style: auto;
     border-color:#dddddd;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
 }
 img {
     float: left;
     padding-right: 10px;
 }
 body{
-    background-color: rgb(248, 248, 239);
+    background-image: url("https://bl3301files.storage.live.com/y4p3JY6Bf_mfusOUZGcIqcXCDRyV3G-rLzgmrVw680yyuz7djsdhxHSGxJ-OFlvCD09zhSeKLMHfJWTb6O059VQuq52bXrDMlX0UXgDHdkjIgP6hB0cdmQjtUqphpNvjnjIlQCRClaRbnoPqlUQSgKtZcov47KD0MJc7MD2M3nuVvgkH25_W-DQhZ7M40FYzb1u/light_grey_%402X.jpg?psid=1&width=523&height=1078");
 }
 h1{
     border-bottom: solid;
@@ -69,7 +80,8 @@ p{
     background-color:#666666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
 }
 /* styling the form inputs and textarea in the contact.html file */
 input{
@@ -84,4 +96,59 @@ textarea{
     background-color:#4aaaa5;
     padding: 5px;
     color:white;
+    cursor: pointer;
+}
+/* styling individual images and the image grids to show as 2 columns */
+#portfolio{
+    width: 250px;
+    height: 200px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.portfolio-table{
+    padding-left: 10px;
+}
+td{
+    position: relative;
+    display: inline-block;
+}
+.text-block{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    padding-right: 77px;
+    padding-left: 77px;
+    color: white;
+}
+.text-block2{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    padding-right: 92px;
+    padding-left: 90px;
+    color: white; 
+}
+.text-block3{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    padding-right: 88px;
+    padding-left: 88px;
+    color: white;
+}
+.text-block4{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    padding-right: 86.5px;
+    padding-left: 85px;
+    color: white;
+}
+.text-block5{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    padding-right: 66px;
+    padding-left: 65px;
+    color: white;
 }
